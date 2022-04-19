@@ -31,4 +31,6 @@ nav{height: 70px;}
 }
 @media screen and (max-width:450px) {
     .container{width: 380px;}
+     .txt-land p{ font-size: 50px;}
+
 }
