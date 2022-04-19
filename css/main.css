@@ -1,0 +1,184 @@
+*{
+    padding: 0;margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.img{
+    object-position: 0 0; 
+    position: absolute; top:
+    0;left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.container{
+    width: 1050px;margin: auto;
+    
+}
+    /*==============*/
+    
+    .menulinks{width: 45px;height: 45px;top: 15px;right: 15px; float: right; margin: 0 10px;cursor: pointer;}
+    .menulinks div{width: 40px;height: 5px;background-color: black;margin: 3px;}
+.land{
+    position: relative; width: 100%; height:600px;
+    right: 0;top: 0;
+    background-color: black;
+}
+.land img{
+    opacity: 0.5;
+    width: 100%;
+    object-position: center;
+    right: 0; bottom: 0;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    padding: 20px 0;
+    z-index: 1;
+    background-color: dimgray;
+}
+.links{
+    float: left;
+}
+ul li{
+    display:  inline-block;
+    margin: 0 8px;
+    transition: all 1s;
+}
+ul a{
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+.phone{
+     float: right;
+     font-size: larger;
+     background-color: antiquewhite;
+     padding: 5px 15px;
+     border-radius: 3pc;
+    }
+.phone:hover{
+background-color: brown;
+color: antiquewhite;
+ }
+ ul a:hover{
+     color: darkkhaki;
+ }
+ .txt-land{
+     position: relative;
+     width: 75%;
+     text-align: center;
+     left: 50%; top: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .txt-land p{
+     font-size: 70px;
+     color: wheat;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ .txt-land span{color: #F5BF13;}
+ 
+ /*===== menu ======*/
+ .top{
+     width: 100%;
+     height: max-content;
+     padding: 30px 0;
+     margin: auto;
+     text-align: center;
+ }
+  .top p{font-size: 50px;}
+  .top span{color: #F5BF13;  font-size: 30px;}
+ .menu{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+ .menu .card-pice{
+     flex: 45%; 
+     height: 150px;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     margin-bottom: 10px;
+ }
+ .menu .card-pice div{
+     width: 48%;
+ }
+ .menu .card-pice .div-img{position: relative;}
+ .menu .card-pice .txt-card h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .txt{
+     margin: 18px 0;
+     color: rgba(0,0,0,0.6);
+ }
+ .menu   .price{
+     font-size: 25px;
+     color: #F5BF13;
+ }
+ /*====== about ========*/
+ #about{
+     padding: 50px 0;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     height: max-content;
+ }
+ #about .div-img{position: relative;}
+ #about div{
+     width: 47%;
+     height: 400px;
+ }
+ .txt-about h3{color: #F5BF13; font-size: larger;}
+ .txt-about h1{font-size: 45px; padding: 10px 0;}
+ .txt-about p{line-height: 170%;}
+/*====== chefs =========*/
+._chefs{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+._chefs .chef{
+    flex: 22%;
+    margin: 0 5px;
+    height: max-content;
+}
+._chefs .chef .div-img{position: relative;height: 280px;}
+._chefs .chef .txt-chef{
+    text-align: center; 
+    padding: 15px 0;
+}
+._chefs .chef .txt-chef p{
+    color: rgba(0,0,0,0.6);
+    margin-top: 5px;
+}
+/*===== contact ====*/
+#contact{
+    padding: 40px 0;
+}
+.inputs{
+    width: 60%;
+    height: max-content;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(-50% ,-0%);
+}
+input , textarea{
+display: block;
+width: 100%;
+margin: 5px 0;
+padding: 10px;
+}
+input:focus , textarea:focus{
+    outline: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.inputs:last-child{
+   font-size: 22px;
+}
