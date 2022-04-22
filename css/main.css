@@ -20,7 +20,7 @@
 }
     /*==============*/
     
-    .menulinks{width: 45px;height: 45px;top: 15px;right: 15px; float: right; margin: 0 10px;cursor: pointer;}
+    .menulinks{display:none; width: 45px;height: 45px;top: 15px;right: 15px; float: right; margin: 0 10px;cursor: pointer;}
     .menulinks div{width: 40px;height: 5px;background-color: black;margin: 3px;}
 .land{
     position: relative; width: 100%; height:600px;
