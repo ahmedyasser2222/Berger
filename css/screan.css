@@ -28,6 +28,8 @@ nav{height: 70px;}
 
 .showmenu{height:200px; transition: all 1s;}
  .showmenu .links li:not(.home){display:block;}
+       nav .menulinks{display:inline-block;}
+
 }
 @media screen and (max-width:450px) {
     .container{width: 380px;}
